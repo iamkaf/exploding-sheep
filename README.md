@@ -1,14 +1,40 @@
 # Exploding Sheep
 
+Baa... BOOM!
+
+## What does this do?
+
 Sheep explode when they eat grass.
 
-This repository provides a starting point for creating Minecraft mods that target Fabric, Forge and NeoForge from the same codebase.
-It is adapted from [jaredlll08's MultiLoader-Template](https://github.com/jaredlll08/MultiLoader-Template) and stripped down to a minimal starting point.
+That's it. That's the whole mod.
 
-## Directory layout
+## When does this happen?
 
-- `common/` contains code shared between all loaders.
-- `fabric/`, `forge/` and `neoforge/` contain loader specific entry points and build logic.
-- `buildSrc/` holds the Gradle scripts that wire everything together.
+Whenever a sheep decides it's snack time:
+- Munching on tall grass? Kaboom!
+- Nibbling on grass blocks? Boom!
+- Eating any grass-related thing? Bang!
 
-Feel free to expand upon this structure to suit the needs of your own mods.
+## Is this useful?
+
+No.
+
+## Is this funny?
+
+Yes.
+
+## Compatibility
+
+- Minecraft: 1.21.10
+- Fabric, Forge, NeoForge
+- Uses Mojang mappings
+
+## How to use
+
+1. Find a sheep
+2. Wait for it to eat grass
+3. Enjoy the fireworks
+
+## License
+
+MIT
