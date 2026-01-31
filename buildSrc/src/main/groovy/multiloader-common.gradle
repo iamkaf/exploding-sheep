@@ -161,7 +161,13 @@ publishing {
         }
     }
     repositories {
-        }
+        maven {
+            name = "KafMaven"
+            url = project.version.endsWith("-SNAPSHOT") ? "https://z.kaf.sh/snapshots" : "https://z.kaf.sh/releases"
+            credentials {
+                username = System.getenv("MAVEN_PUBLISH_USERNAME")
+                password = System.getenv("MAVEN_PUBLISH_PASSWORD")
+            }
         }
     }
 }
