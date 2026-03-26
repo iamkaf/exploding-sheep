@@ -25,7 +25,6 @@ Yes.
 
 ## Compatibility
 
-- Minecraft: 1.21.10
 - Fabric, Forge, NeoForge
 - Uses Mojang mappings
 
